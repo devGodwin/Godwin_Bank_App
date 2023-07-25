@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <img src="./images/icon-logo.png">
+        <div class="nav-items">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+        </div>
+        <form class="search-bar" action="/search" method="get">
+            <input type="text" id="search" name="q" placeholder="Enter your search term...">
+            <button type="submit">Search</button>
+        </form>
+        
+    </nav>
+    <div class="registration-form" id="myForm">
+        <h1>Welcome to GodwinEasybank!</h1>
+        <form action="#" method="post">
+            <p>First Name</p>
+            <input type="text" name="firstname" placeholder="First Name">
+            <p>Last Name</p>
+            <input type="text" name="lastname" placeholder="Last Name">
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Email">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Password">
+            <p>Confirm Password</p>
+            <input type="password" name="confirmpassword" placeholder="Confirm Password">
+            <button>
+                <a href="./index.html" class="no-underline">Go back</a>
+            </button>
+            <button type="submit">Registration</button>
+        </form>
+        <p>
+            By continuing, you agree to our 
+            <a href="#">Terms of Service</a> and 
+            <a href="#">Privacy Policy</a>
+       </p>
+    </div>
+    <script src="Account.js"></script>
+</body>
+</html>
